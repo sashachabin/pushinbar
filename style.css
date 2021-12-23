@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    background: black;
+    color: white;
+}
+
+.item {
+    position: relative;
+    margin-bottom: 48px;
+}
+
+.item__beer {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.item__volume {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.item__price {
+    margin-top: 8px;
+}
+
+.item__type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(2deg);
+}
+
+.item__cover-container {
+    position: relative;
+    text-align: center;
+} 
+
+.item__price {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: white;
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+    transform: rotate(2.99deg);
+    transform-origin: left bottom;
+}
+
+.item__cover {
+    width: 93%;
+    aspect-ratio: 109 / 60;
+    transform-origin: bottom;
+    transform: rotate(-4deg);
+    border-radius: 16px;
+    object-fit: cover;
+    object-position: center;
+}
