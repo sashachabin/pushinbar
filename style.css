@@ -58,3 +58,30 @@ body {
     object-fit: cover;
     object-position: center;
 }
+
+.footer {
+    font-size: 16px;
+    background: #310D44;
+    border-radius: 16px 16px 0px 0px;
+    padding: 4px 24px 32px 24px;
+}
+
+.footer__logo {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.footer__text {
+    margin-bottom: 24px;
+}
+
+.footer__link {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
