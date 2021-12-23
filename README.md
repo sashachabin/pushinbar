@@ -53,6 +53,6 @@ https://docs.google.com/spreadsheets/d/1x2GUc8vCtzdQ8SdqTswv3E-NidNZXEXzqsLY6z9J
 
 
 ## Авторы
-- Александр Чабин — разработчик
-- Егор Макаров — дизайн
-- Андрей Пушин — ревью дизайна
+- [Александр Чабин](https://twitter.com/nibach) — разработчик
+- [Егор Макаров](https://www.instagram.com/mak_egor/) — [дизайн](https://www.figma.com/file/KFNSATeJHFbKiEiUAQAGC2/%D0%9C%D0%B5%D0%BD%D1%8E-%D0%B4%D0%BB%D1%8F-%D0%B1%D0%B0%D1%80%D0%B0?node-id=27%3A10220)
+- [Андрей Пушин](https://www.instagram.com/pushinandrej/) — ревью дизайна
