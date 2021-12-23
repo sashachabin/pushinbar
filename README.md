@@ -12,7 +12,7 @@ MVP-версия сайта с меню бара [pushinbar.ru](https://pushinba
 
 ## Данные в Google Таблице
 
-Информация о пиве и его таблицы упрвляется прямо и Google Таблицы:
+Информация о пиве и его таблицы управляется прямо и Google Таблицы:
 https://docs.google.com/spreadsheets/d/1x2GUc8vCtzdQ8SdqTswv3E-NidNZXEXzqsLY6z9JGQA/edit#gid=1562855295
 
 ![image](https://user-images.githubusercontent.com/22644149/147297372-c392fd85-fb3e-4d3a-9257-4b4b0c0b3fe6.png)
