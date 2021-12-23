@@ -1,2 +1,2 @@
 # pushinbar
-Барное в pushinbar
+Барное меню в pushinbar
