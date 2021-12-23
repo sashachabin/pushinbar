@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body,
 html {
     margin: 0;
@@ -12,6 +16,20 @@ body {
 
 .wrapper {
     max-width: 600px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-bottom: 48px;
+    padding: 0 8px;
+    text-align: center;
+}
+
+.menu {
+    margin: 0 auto;
+    padding: 0 8px;
+    min-height: 100vh;
+    text-align: center;
 }
 
 .item {
