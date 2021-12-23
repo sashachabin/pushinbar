@@ -4,6 +4,10 @@ body {
     color: white;
 }
 
+.wrapper {
+    max-width: 600px;
+}
+
 .item {
     position: relative;
     margin-bottom: 48px;
