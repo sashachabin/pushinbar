@@ -8,8 +8,11 @@
         const coverImage = cover || './images/cover-default.jpg';
         return `
         <article class="item">
-            <div class="item__cover-container">
-                <div class="item__type">${type1}</div>
+            <div class="item__cover-wrap">
+                <div class="item__type-wrap">
+                    <div class="item__type">${type1}</div>
+                    ${type2 ? `<div class="item__type">${type2}</div>` : ''}
+                </div>
                 <img class="item__cover" class="" src="${coverImage}" alt="">
                 <div class="item__price">${price} ₽</div>
             </div>

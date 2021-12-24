@@ -31,7 +31,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 0 8px;
+    padding: 0 16px;
     width: 100%;
     min-height: 90vh;
 }
@@ -39,22 +39,22 @@ body {
 .item {
     width: 100%;
     position: relative;
-    margin-bottom: 48px;
+    margin-bottom: 56px;
     text-align: left;
 }
 
 .item__beer {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 1.2;
     margin-top: 32px;
     margin-bottom: 0;
-    margin-left: 12px;
+    margin-left: 8px;
 }
 
 .item__volume {
     font-size: 24px;
     line-height: 1.2;
-    margin-left: 12px;
+    margin-left: 8px;
 }
 
 .item__price {
@@ -62,23 +62,29 @@ body {
     clip-path: polygon(40% 0, 0 0, 0 46%, 0 100%, 44% 100%, 50% 89%, 57% 100%, 100% 100%, 100% 51%, 100% 0, 55% 0, 47% 10%);
 }
 
-.item__type {
+.item__type-wrap {
     position: absolute;
     z-index: 1;
-    top: 0;
+    top: -8px;
     left: 0;
-    transform: rotate(-1deg);
+    display: flex;
+    transform: rotate(-2.5deg);
+    margin: 0 -8px;
+}
+
+.item__type {
     background: black;
     padding: 4px 12px;
+    margin: 0 8px;
     color: white;
 }
 
-.item__cover-container {
+.item__cover-wrap {
     position: relative;
     text-align: center;
 } 
 
-.item__cover-container::after {
+.item__cover-wrap::after {
     content: '';
     position: relative;
     display: block;
