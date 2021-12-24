@@ -14,28 +14,33 @@ body {
     color: white;
 }
 
-.wrapper {
-    max-width: 600px;
+.wrap {
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .logo {
     margin-bottom: 48px;
     padding: 0 16px;
-    text-align: center;
+    text-align: left;
 }
 
 .menu {
+    position: relative;
     margin: 0 auto;
     padding: 0 8px;
-    min-height: 100vh;
-    text-align: center;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px;
 }
 
 .item {
+    width: 100%;
     position: relative;
     margin-bottom: 48px;
     text-align: left;
+    padding: 0 8px;
 }
 
 .item__beer {
@@ -95,7 +100,7 @@ body {
     font-size: 16px;
     background: #310D44;
     border-radius: 16px 16px 0px 0px;
-    padding: 4px 24px 32px 24px;
+    padding: 4px 28px 32px 28px;
 }
 
 .footer__logo {
@@ -118,6 +123,23 @@ body {
     text-decoration: underline;
 }
 
+@media screen and (min-width: 567px) {
+    .item {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .item {
+        width: calc(100% / 3);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .item {
+        width: calc(100% / 4);
+    }
+}
 
 .loader-caption {
     position: absolute;
