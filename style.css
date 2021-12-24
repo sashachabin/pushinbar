@@ -75,6 +75,13 @@ body {
     text-align: center;
 } 
 
+.item__cover-container::after {
+    content: '';
+    position: relative;
+    display: block;
+    padding-bottom: 60%;
+}
+
 .item__price {
     position: absolute;
     right: 0;
@@ -88,13 +95,16 @@ body {
 }
 
 .item__cover {
-    width: 93%;
-    aspect-ratio: 109 / 60;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
     transform-origin: bottom;
     transform: rotate(-4deg);
     border-radius: 16px;
     object-fit: cover;
-    object-position: center;
+    object-position: 50% 60%;
 }
 
 .footer {
