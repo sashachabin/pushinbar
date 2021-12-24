@@ -1,9 +1,9 @@
 # Сайт барного меню
 
-MVP-версия сайта с меню бара [pushinbar.ru](https://pushinbar.ru), сделанная в барном мастер-классе за полтора часа.
-
-![image](https://user-images.githubusercontent.com/22644149/147296749-3852216d-25b6-4f0f-8d2d-917100ff63b3.png)
-
+MVP-версия сайта с меню бара [pushinbar.ru](https://pushinbar.ru), сделанная на барном мастер-классе за 2 часа.
+      
+ ![image](https://user-images.githubusercontent.com/22644149/147356345-50930418-ea56-48f3-ac05-51359683e659.png)
+   
 - База данных в Google Таблице
 - Минимальный Backend на [Google App Script](https://developers.google.com/apps-script)
 - Простейший Frontend на ванильных HTML/CSS/JS
@@ -12,14 +12,14 @@ MVP-версия сайта с меню бара [pushinbar.ru](https://pushinba
 
 ## Данные в Google Таблице
 
-Информация о пиве и его таблицы управляется прямо и Google Таблицы:
+Информация о пиве и его наличии управляется из Google Таблицы:
 https://docs.google.com/spreadsheets/d/1x2GUc8vCtzdQ8SdqTswv3E-NidNZXEXzqsLY6z9JGQA/edit#gid=1562855295
 
 ![image](https://user-images.githubusercontent.com/22644149/147297372-c392fd85-fb3e-4d3a-9257-4b4b0c0b3fe6.png)
 
 
 ## Бэкэнд на Google AppScript
-`backend-google-app.gs` (код из интерфейса Google AppScript)
+Код из интерфейса Google AppScript на [Github Gist](https://gist.github.com/a-chabin/b645837dc19c546035d2da42027c4196#file-google-app-backend-gs)
 
 Сервер [script.googleusercontent.com](https://script.googleusercontent.com/macros/echo?user_content_key=Qo3nCev3vKhzejCjIcVZhB3ULyuCcBbL96mT4beg5cEbpTrLIM9I2Vz2-MRljh3dZB7UVyrrKwBWI-HvYVs3EWLTaVdQp0jPm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnCtUk43f48yQC-4h6uPTT3F5OK0fJemEGBaC-lLKqKzy2Q9eHLyJ9qux9rcQPyY6WCG_-W_z8TVH3c_8bZg2_Bdf-wvr4dxwbdz9Jw9Md8uu&lib=MAmgsdUMg_-ZrqH71iCQ13b_P0nMP0Yb0) возвращает данные в формате JSON:
 ```json
@@ -41,10 +41,9 @@ https://docs.google.com/spreadsheets/d/1x2GUc8vCtzdQ8SdqTswv3E-NidNZXEXzqsLY6z9J
 ## TODO
 * [x] Вывести меню бара
 * [x] Шапка и подвал сайта
-* [x] Добавить типы пива
+* [x] Добавить типы напитков
 * [x] Десктопная версия
-* [ ] Навигация по типам пива
-* [ ] Вывести список категорий
+* [ ] Навигация по типам напитков
 * [ ] Увеличить скорость загрузки меню — кэшировать ответы Google Apps
 * [ ] Убрать скачки при загрузке (Layout Shift)
 
