@@ -177,7 +177,7 @@ body {
 
 @media screen and (min-width: 567px) {
     .menu {
-        margin: 0 -16px;
+        margin: 0 -16px 0 0;
     }
 
     .item {
