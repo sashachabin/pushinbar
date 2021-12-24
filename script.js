@@ -9,9 +9,7 @@
         return `
         <article class="item">
             <div class="item__cover-container">
-                <!-- <div class="item__type"><img src="image/${type1}" alt=""></div> -->
-                <!-- <div class="item__type">${type1}</div> -->
-
+                <div class="item__type">${type1}</div>
                 <img class="item__cover" class="" src="${coverImage}" alt="">
                 <div class="item__price">${price} ₽</div>
             </div>
