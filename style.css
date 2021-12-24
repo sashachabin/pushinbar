@@ -198,6 +198,12 @@ body {
     }
 }
 
+@media screen and (min-width: 1600px) {
+    .item {
+        width: calc(100% / 5);
+    }
+}
+
 .loader-caption {
     position: absolute;
     top: calc(50% + 70px);
