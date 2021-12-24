@@ -17,7 +17,7 @@
                 <div class="item__price">${price} ₽</div>
             </div>
                 
-            <h3 class="item__beer">${beer}</h3>
+            <h2 class="item__beer">${beer}</h2>
             <div class="item__volume">${volume}</div>
         </article>
     `;
