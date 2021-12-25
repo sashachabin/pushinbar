@@ -22,7 +22,7 @@ body {
 
 .logo {
     margin-bottom: 48px;
-    padding: 0 16px;
+    padding: 0 24px;
     text-align: left;
 }
 
@@ -31,7 +31,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 24px;
     width: 100%;
     min-height: 90vh;
 }
@@ -54,7 +54,7 @@ body {
 .item__beer {
     font-size: 19px;
     line-height: 1.2;
-    margin-top: 32px;
+    margin-top: 28px;
     margin-bottom: 0;
     margin-left: 8px;
 }
@@ -63,11 +63,6 @@ body {
     font-size: 24px;
     line-height: 1.2;
     margin-left: 8px;
-}
-
-.item__price {
-    margin-top: 8px;
-    clip-path: polygon(40% 0, 0 0, 0 46%, 0 100%, 44% 100%, 50% 89%, 57% 100%, 100% 100%, 100% 51%, 100% 0, 55% 0, 47% 10%);
 }
 
 .item__type-wrap {
@@ -101,14 +96,16 @@ body {
 
 .item__price {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: -12px;
+    bottom: -12px;
     background: white;
     color: black;
     padding: 10px;
     font-size: 25px;
     transform: rotate(2.99deg);
     transform-origin: left bottom;
+    margin-top: 8px;
+    clip-path: polygon(40% 0, 0 0, 0 46%, 0 100%, 44% 100%, 50% 89%, 57% 100%, 100% 100%, 100% 51%, 100% 0, 55% 0, 47% 10%);
 }
 
 .item__cover {
@@ -177,12 +174,12 @@ body {
 
 @media screen and (min-width: 567px) {
     .menu {
-        margin: 0 -16px 0 0;
+        margin: 0 -24px 0 0;
     }
 
     .item {
         width: 50%;
-        padding: 0 16px;
+        padding: 0 24px;
     }
 }
 
