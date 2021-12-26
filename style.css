@@ -118,6 +118,12 @@ body {
     border-radius: 16px;
     object-fit: cover;
     object-position: 50% 60%;
+    filter: opacity(.9) contrast(.85);
+    transition: .25s ease all;
+}
+
+.item:hover .item__cover {
+    filter: none;
 }
 
 .footer {
