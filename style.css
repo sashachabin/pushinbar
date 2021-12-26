@@ -22,7 +22,7 @@ body {
 
 .logo {
     margin-bottom: 48px;
-    padding: 0 24px;
+    padding: 0 32px;
     text-align: left;
 }
 
@@ -31,7 +31,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 28px;
     width: 100%;
     min-height: 90vh;
 }
@@ -39,7 +39,7 @@ body {
 .item {
     width: 100%;
     position: relative;
-    margin-bottom: 56px;
+    margin-bottom: 48px;
     text-align: left;
 }
 
@@ -54,13 +54,13 @@ body {
 .item__beer {
     font-size: 19px;
     line-height: 1.2;
-    margin-top: 28px;
+    margin-top: 24px;
     margin-bottom: 0;
     margin-left: 8px;
 }
 
 .item__volume {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.2;
     margin-left: 8px;
 }
@@ -91,20 +91,19 @@ body {
     content: '';
     position: relative;
     display: block;
-    padding-bottom: 60%;
+    padding-bottom: 50%;
 }
 
 .item__price {
     position: absolute;
     right: -12px;
-    bottom: -12px;
+    bottom: -4px;
     background: white;
     color: black;
     padding: 10px;
-    font-size: 25px;
+    font-size: 22px;
     transform: rotate(2.99deg);
     transform-origin: left bottom;
-    margin-top: 8px;
     clip-path: polygon(40% 0, 0 0, 0 46%, 0 100%, 44% 100%, 50% 89%, 57% 100%, 100% 100%, 100% 51%, 100% 0, 55% 0, 47% 10%);
 }
 
@@ -172,14 +171,19 @@ body {
     }
 }
 
-@media screen and (min-width: 567px) {
+@media screen and (min-width: 540px) {
     .menu {
-        margin: 0 -24px 0 0;
+        margin: 0 -28px 0 0;
     }
 
     .item {
         width: 50%;
-        padding: 0 24px;
+        padding: 0 28px;
+        margin-bottom: 56px;
+    }
+
+    .item__cover-wrap::after {
+        padding-bottom: 65%;
     }
 }
 
