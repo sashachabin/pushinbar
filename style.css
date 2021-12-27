@@ -133,6 +133,10 @@ body {
     padding: 4px 28px 32px 28px;
 }
 
+.footer__address {
+    font-style: normal;
+}
+
 .footer__logo {
     font-size: 32px;
     font-weight: 600;
