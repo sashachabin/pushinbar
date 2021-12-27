@@ -46,6 +46,7 @@ https://docs.google.com/spreadsheets/d/1x2GUc8vCtzdQ8SdqTswv3E-NidNZXEXzqsLY6z9J
 * [ ] Навигация по типам напитков
 * [ ] Увеличить скорость загрузки меню — кэшировать ответы Google Apps
 * [ ] Убрать скачки при загрузке (Layout Shift)
+* [ ] Модалка '18 мне уже'
 
 ## Как это работает?
 

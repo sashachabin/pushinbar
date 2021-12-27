@@ -260,4 +260,49 @@ body {
         opacity: 0;
     }
 }
-  
+
+dialog:not([open]) {
+    display: none
+}
+
+dialog {
+    position: fixed;
+    overflow: auto;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: fit-content;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto auto 0;
+    padding: 50px;
+    border: none;
+    animation-name: animate-top;
+    animation-duration: 0.4s;
+    background: #000000;
+    border: 1px solid white;
+    border-bottom: none;
+    color: #ffffff;
+}
+
+dialog::backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,.2);
+    backdrop-filter: blur(5px);
+}
+
+@keyframes animate-top {
+    from {
+        transform: translate(0, 100%);
+        opacity: 0
+    } 
+    to {
+        transform: translate(0, 0);
+        opacity: 1
+    }
+}
