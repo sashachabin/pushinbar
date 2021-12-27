@@ -13,7 +13,7 @@
                     <div class="item__type">${type1}</div>
                     ${type2 ? `<div class="item__type">${type2}</div>` : ''}
                 </div>
-                <img class="item__cover" class="" src="${coverImage}" alt="">
+                <img class="item__cover" class="" src="${coverImage}" alt="" loading="lazy">
                 <div class="item__price">${price} ₽</div>
             </div>
                 
